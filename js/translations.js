@@ -1,0 +1,42 @@
+const translations = {
+  en: {
+    nav: { home: "Home", about: "About", projects: "Projects", tools: "Tools", contact: "Contact", hire: "Hire Me", events: "Events Calendar", software: "Softwares" },
+    hero: { greeting: "Hello, I'm", name: "Tanvir Ahmed Jihad", role1: "Junior", role2: "Graphics Designer", desc: "Turning ideas into clean, memorable visuals. I work on social media designs, logos and brand identity.", work: "View My Work", touch: "Get In Touch" },
+    stats: { s1: "Certifications", s2: "Projects Done", s3: "Project Views", s4: "Appreciations" },
+    about: { label: "About Me", t1: "Why Choose", t2: "Me?", years: "Years Experience",
+      p1: "I'm Tanvir Ahmed Jihad, a junior graphics designer who loves turning ideas into clear, memorable visuals.",
+      p2: "I work on social media designs, logos and simple interface designs, and I pay close attention to color, typography and layout.",
+      p3: "I'm always learning new tools and open to freelance work and new opportunities.",
+      resume: "View Resume", behance: "Behance Profile" },
+    projects: { label: "My Portfolio", t1: "Featured", t2: "Projects", sub: "A selection of my recent design work in branding, social media and UI.", all: "View All Projects on Behance" },
+    cat: { branding: "Branding", social: "Social Media", ui: "UI Design" },
+    contact: { t1: "Let's Work", t2: "Together", sub: "Have a project in mind? Send a message and I'll reply soon.", info: "Contact Information", location: "Location", locationVal: "Bangladesh", emailL: "Email", phoneL: "Phone", avail: "Availability", availVal: "Available for Freelance & Full-time",
+      formTitle: "Send a Message", name: "Your Name", email: "Your Email", subject: "Subject", message: "Message", send: "Send Message",
+      phName: "Your full name", phEmail: "you@example.com", phSubject: "Project Inquiry", phMsg: "Tell me about your project..." },
+    form: { ok: "Message sent! Thank you for reaching out. I'll get back to you soon.", fail: "Could not send your message. Please try again.", invalid: "Please fill in all fields with valid details.", sending: "Sending..." },
+    follow: { title: "Follow Me On", text: "Let me handle your next design project." },
+    tools: { t1: "More", t2: "Tools!" },
+    thanks: { small: "Thanks For", v1: "View", v2: "ing" },
+    footer: { made: "Made with", tagline: "Crafted with care." }
+  },
+  bn: {
+    nav: { home: "হোম", about: "পরিচিতি", projects: "প্রজেক্টস", tools: "টুলস", contact: "যোগাযোগ", hire: "হায়ার মি", events: "ইভেন্ট ক্যালেন্ডার", software: "সফটওয়্যার" },
+    hero: { greeting: "হ্যালো, আমি", name: "তানভীর আহমাদ জিহাদ", role1: "জুনিয়ার", role2: "গ্রাফিক্স ডিজাইনার", desc: "আইডিয়াকে পরিচ্ছন্ন ও মনে রাখার মতো ভিজ্যুয়ালে রূপ দিই। সোশ্যাল মিডিয়া ডিজাইন, লোগো ও ব্র্যান্ড আইডেন্টিটিতে কাজ করি।", work: "আমার কাজ দেখুন", touch: "যোগাযোগ করুন" },
+    stats: { s1: "সার্টিফিকেশন", s2: "সম্পন্ন প্রজেক্ট", s3: "প্রজেক্ট ভিউ", s4: "প্রশংসা" },
+    about: { label: "আমার সম্পর্কে", t1: "কেন আমাকে", t2: "বেছে নেবেন?", years: "বছরের অভিজ্ঞতা",
+      p1: "আমি তানভীর আহমাদ জিহাদ, একজন জুনিয়ার গ্রাফিক্স ডিজাইনার। আইডিয়াকে পরিষ্কার ও মনে রাখার মতো ভিজ্যুয়ালে রূপ দিতে আমার ভালো লাগে।",
+      p2: "আমি সোশ্যাল মিডিয়া ডিজাইন, লোগো ও সহজ ইন্টারফেস ডিজাইনে কাজ করি এবং রং, টাইপোগ্রাফি ও লেআউটের দিকে বিশেষ নজর দিই।",
+      p3: "আমি সবসময় নতুন টুল শিখছি এবং ফ্রিল্যান্স কাজ ও নতুন সুযোগের জন্য প্রস্তুত।",
+      resume: "রিজিউম দেখুন", behance: "বিহেন্স প্রোফাইল" },
+    projects: { label: "আমার পোর্টফোলিও", t1: "নির্বাচিত", t2: "প্রজেক্টস", sub: "ব্র্যান্ডিং, সোশ্যাল মিডিয়া ও ইউআই-এ আমার সাম্প্রতিক ডিজাইন কাজের কিছু নমুনা।", all: "বিহেন্সে সব প্রজেক্ট দেখুন" },
+    cat: { branding: "ব্র্যান্ডিং", social: "সোশ্যাল মিডিয়া", ui: "ইউআই ডিজাইন" },
+    contact: { t1: "চলুন একসাথে", t2: "কাজ করি", sub: "মনে কোনো প্রজেক্ট আছে? মেসেজ পাঠান, আমি শিগগিরই উত্তর দেব।", info: "যোগাযোগের তথ্য", location: "অবস্থান", locationVal: "বাংলাদেশ", emailL: "ইমেইল", phoneL: "ফোন", avail: "প্রাপ্যতা", availVal: "ফ্রিল্যান্স ও ফুল-টাইম কাজের জন্য প্রস্তুত",
+      formTitle: "মেসেজ পাঠান", name: "আপনার নাম", email: "আপনার ইমেইল", subject: "বিষয়", message: "মেসেজ", send: "মেসেজ পাঠান",
+      phName: "আপনার পুরো নাম", phEmail: "you@example.com", phSubject: "প্রজেক্ট সম্পর্কে জানতে চাই", phMsg: "আপনার প্রজেক্ট সম্পর্কে লিখুন..." },
+    form: { ok: "মেসেজ পাঠানো হয়েছে! যোগাযোগ করার জন্য ধন্যবাদ। আমি শিগগিরই উত্তর দেব।", fail: "মেসেজ পাঠানো যায়নি। আবার চেষ্টা করুন।", invalid: "সব ঘর সঠিক তথ্য দিয়ে পূরণ করুন।", sending: "পাঠানো হচ্ছে..." },
+    follow: { title: "আমাকে ফলো করুন", text: "আপনার পরবর্তী ডিজাইন প্রজেক্ট আমার হাতে ছেড়ে দিন।" },
+    tools: { t1: "আরও", t2: "টুলস!" },
+    thanks: { small: "দেখার জন্য", v1: "ধন্য", v2: "বাদ" },
+    footer: { made: "ভালোবাসা দিয়ে তৈরি", tagline: "যত্ন দিয়ে তৈরি।" }
+  }
+};
